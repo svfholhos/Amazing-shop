@@ -54,6 +54,13 @@ header {
     margin: 0.2rem 0 0 1rem;
 }
 
+.count {
+    background: rgba(57, 58, 177, 1);
+    padding: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
 .items {
     list-style-type: none;
     margin-bottom: 1rem;
@@ -123,19 +130,40 @@ header {
     color: #fff
 }
 
+.myCart {
+    position: absolute;
+    right: 8vw;
+    background: rgba(99, 100, 216, 1);
+    margin-top: 4.5rem;
+    color: #fff;
+    width: 10vw;
+    display: inline-flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.myCart img {
+    height: 1rem;
+}
+
 .searchBar {
     position: absolute;
     margin-top: 4.5rem;
     margin-left: 25%;
     background: #fff;
-    
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
 }
 
 .searchBar input {
     width: 40vw;
     border: none;
     height: 2rem;
-    padding: 0.3rem;
-    border-radius: 5px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    margin-left: 1vw;
+}
+
+.searchBar img {
+    height: 1rem;
+    vertical-align: middle;
+    margin-left: 0.5vw;
 }
