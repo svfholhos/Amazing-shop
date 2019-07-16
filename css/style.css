@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #eee;
+}
+
+.all-categ {
+    font-size: 0.8rem;
+    color: #999;
+    font-weight: 600;
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+
+
+.categories {
+     position: absolute;
+     margin-top: 4.5rem;
+     background: #fff;
+     width: 20vw;
+     padding: 1rem 0 1rem 1rem;
+     border-radius: 5px;
+     box-shadow: 0 0 6px rgba(0,0,0,0.3)
+}
+
+header {
+    display: flex;  
+    background-color: rgba(248, 203, 0, 1);
+    height: 10rem;
+    padding: 2% 8% 0 8%;
+    justify-content: space-between;
+}
+
+.categories-item a {
+    text-decoration: none;
+    color: #222;
+}
+
+.contact {
+    display: inline-flex; 
+    margin-left: 10%;
+    width: 33.3%
+}
+
+.contact .subTitle {
+    margin:  0; 
+    padding: 0; 
+    margin: 0.2rem 0 0 1rem;
+}
+
+.items {
+    list-style-type: none;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+    font-size: 0.7rem;
+}
+
+.items a {
+    color: #888;
+}
+
+.categories-item {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.categories-item ul {
+    margin-top: 1rem;
+}
+
+
+
+.categories-item a:hover {
+    color: rgba(248, 203, 0, 1)
+}
+
+.items:hover {
+    color: rgba(248, 203, 0, 1)
+}
+
+.navLeftSide {
+    display: inline-flex;
+    width: 60%;
+}
+
+.logo {
+    width: 33.3%
+}
+
+.logo a {
+    text-decoration: none
+}
+
+.navigation {
+    text-align: right;
+    width: 30%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.menu-item a:hover {
+    color: #fff
+}
+
+.searchBar {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 25%;
+    background: #fff;
+    
+}
+
+.searchBar input {
+    width: 40vw;
+    border: none;
+    height: 2rem;
+    padding: 0.3rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
