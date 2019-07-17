@@ -55,9 +55,13 @@ header {
 }
 
 .count {
+    height: 100%;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(57, 58, 177, 1);
-    padding: 1rem;
-    color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 5px 5px 0;
 }
 
 
@@ -86,6 +90,10 @@ header {
 
 .categories-item a:hover {
     color: rgba(248, 203, 0, 1)
+}
+
+.cart-icon {
+    color: rgba(255,255,255,0.6);
 }
 
 .items:hover {
@@ -131,24 +139,27 @@ header {
 }
 
 .myCart {
-    position: absolute;
-    right: 8vw;
+    height: 3rem;
     background: rgba(99, 100, 216, 1);
     margin-top: 4.5rem;
     color: #fff;
-    width: 10vw;
+    width: 18vw;
     display: inline-flex;
     justify-content: space-between;
+    padding: 0 0 0 0.5rem;
+    align-items: center;
     border-radius: 5px;
 }
-.myCart img {
-    height: 1rem;
+
+.myCart-text {
+    color: rgba(255,255,255, 0.8);
 }
+
 
 .searchBar {
     position: absolute;
     margin-top: 4.5rem;
-    margin-left: 25%;
+    margin-left: 22%;
     background: #fff;
     padding: 0.5rem;
     border-radius: 5px;
@@ -167,3 +178,4 @@ header {
     vertical-align: middle;
     margin-left: 0.5vw;
 }
+
