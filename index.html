@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Amazing Shop</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <script src="https://kit.fontawesome.com/a653ef4095.js"></script>
+    
 </head>
 
 <body id="root">
     <header>
         <div class="navLeftSide">
                 <div class="logo">
-                        <a href="/"><h2 style="color: #fff;">Amazing shop</h2></a>
-                    </div>
+                    <a href="/"><h2 style="color: #fff;">Amazing shop</h2></a>
+                </div>
             
-                    <div class="contact" >
-                        <h4 class="subTitle"><i class="fas fa-map-marker-alt"></i> My city: <span style="color: #8077aa">Los Angeles</span> </h4>  
-                    </div>
-            
-                    <div class="contact">
-                        <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
-                    </div>
+                <div class="contact" >
+                    <h4 class="subTitle"><i class="fas fa-map-marker-alt"></i> My city:
+                        <a href="https://goo.gl/maps/27cDydCFh38FUNeb6" target="_blank">
+                            <span style="color: #8077aa">Los Angeles</span>
+                        </a>
+                    </h4>  
+                </div>
+        
+                <div class="contact">
+                    <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
+                </div>
         </div>
         
         <nav class="navigation">
@@ -34,124 +38,135 @@
                 <li class="menu-item"><a href="">My account</a></li>
             </ul>
         </nav>
-        
-        <div class="categories">
-            <ul>
-                <!-- face -->
-                <li class="all-categ">All Categories</li>
-                <li class="categories-item">
-                    <a href=""> Face</a>
-                        <ul class="face-list" style="">
-                            <li class="items"><a href="">Creams & gels</a></li>
-                            <li class="items"><a href="">Patches</a></li>
-                            <li class="items"><a href="">Emulsions</a></li>
-                            <li class="items"><a href="">Toners</a></li>
-                            <li class="items"><a href="">Face cleansing</a></li>
-                            <li class="items"><a href="">Make up removal</a></li>
-                            <li class="items"><a href="">Scrubs</a></li>
-                            <li class="items"><a href="">Peeling</a></li>
-                            <li class="items"><a href="">Masks</a></li>
-                        </ul>
-                </li>
-                
-                <!-- body -->
-                <li class="categories-item">
-                    <a href="">Body</a>
-                        <ul class="body-list">
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                        </ul>
-                </li>
-
-                <!-- foot -->
-                <li class="categories-item">
-                    <a href="">Foot</a>
-                    
-                        <ul class="foot-list">
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                        </ul>
-                </li>
-
-                <!-- hands -->
-                <li class="categories-item">
-                        <a href="">Hands</a> 
-                        <ul class="hands-list">
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"> <a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                        </ul>
-                </li>
-                
-                <!-- hair -->
-                <li class="categories-item">
-                        <a href="">Hair</a> 
-                        <ul class="hair-list">
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                        </ul>
-                </li>
-
-                <!-- make-up -->
-                <li class="categories-item">
-                       <a href="">Makeup</a> 
-                        <ul class="makeup-list">
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                            <li class="items"><a href=""></a></li>
-                        </ul>
-                </li>
-
-            </ul>
-            
-        </div>
 
         <div class="searchBar">
-            <img src="icons/search-solid.svg" alt="">
+            <i class="fas fa-search"></i>
             <input type="text" placeholder="Search products by SKU or name">
         </div>
-
+    
         <div class="myCart">
             <i class="fas fa-cart-plus cart-icon"></i>
             <div class="myCart-text">My Cart</div>
             <div class="count"> 12 </div>
         </div>
-
     </header>
+    <!-- end header -->
 
     <!-- main content -->
     <div class="content">
+
+            <!-- categories section -->
+            <div class="categories">
+                    <ul>
+                        <!-- face -->
+                        <li class="all-categ">All Categories</li>
+                        <li class="categories-item">
+                            <a href=""> Face</a>
+                                <ul class="face-list" style="">
+                                    <li class="items"><a href="">Creams & gels</a></li>
+                                    <li class="items"><a href="">Patches</a></li>
+                                    <li class="items"><a href="">Emulsions</a></li>
+                                    <li class="items"><a href="">Toners</a></li>
+                                    <li class="items"><a href="">Face cleansing</a></li>
+                                    <li class="items"><a href="">Make up removal</a></li>
+                                    <li class="items"><a href="">Scrubs</a></li>
+                                    <li class="items"><a href="">Peeling</a></li>
+                                    <li class="items"><a href="">Masks</a></li>
+                                </ul>
+                        </li>
+                        
+                        <!-- body -->
+                        <li class="categories-item">
+                            <a href="">Body</a>
+                                <ul class="body-list">
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                </ul>
+                        </li>
+        
+                        <!-- foot -->
+                        <li class="categories-item">
+                            <a href="">Foot</a>
+                            
+                                <ul class="foot-list">
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                </ul>
+                        </li>
+        
+                        <!-- hands -->
+                        <li class="categories-item">
+                                <a href="">Hands</a> 
+                                <ul class="hands-list">
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"> <a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                </ul>
+                        </li>
+                        
+                        <!-- hair -->
+                        <li class="categories-item">
+                                <a href="">Hair</a> 
+                                <ul class="hair-list">
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                </ul>
+                        </li>
+        
+                        <!-- make-up -->
+                        <li class="categories-item">
+                               <a href="">Makeup</a> 
+                                <ul class="makeup-list">
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                    <li class="items"><a href=""></a></li>
+                                </ul>
+                        </li>
+                    </ul>
+        
+                    <!-- ads section -->
+                    <div class="ads">
+                        <a href="#">
+                            <div class="ad1 ads-img">
+                                Today's offer
+                            </div>
+                        </a>
+                    </div>
+                    
+            </div>
+            <!-- end categories -->
 
         <!-- content header & filters -->
         <div class="content-header">
             <div class="content-header-text">
                 <h2>Creams & gels</h2>
             </div>
-
+         
             <div class="pagination">
                 <h4>Showing {60} of {392}</h4>
-                <span class="arrow-left"><i class="fas fa-arrow-left"></i></span>
-                <span class="arrow-right"><i class="fas fa-arrow-right"></i></span>
+                <span class="arrow-left"><i class="fas fa-chevron-left"></i></span>
+                <span class="arrow-right"><i class="fas fa-chevron-right"></i></i></span>
             </div>
         </div>
+        <!-- end content header -->
 
         <!-- filters -->
         <div class="filters">
@@ -164,50 +179,115 @@
 
         <!-- products -->
         <div id="products">
-            <div class="product">
+            <div class="product" id="prod1">
                 <img src="img/prod1.jpg" alt="body cream" class="product-img">
                 <h4>Missha All Around Safe Block Sebum Zero Sun</h4>
                 <span class="price">$4.00</span>
             </div>
 
-            <div class="product">
-                <img src="img/prod1.jpg" alt="body cream" class="product-img">
-                <h4>Missha All Around Safe Block Sebum Zero Sun</h4>
-                <span class="price">$4.00</span>
+            <div class="product" id="prod2">
+                <img src="img/prod3.jpg" alt="body cream" class="product-img">
+                <h4 id="item2">Claire’s Cloud 9 Blanc De Whitening Cream</h4>
+                <span class="price">$20.00</span>
             </div>
 
-            <div class="product">
-                <img src="img/prod1.jpg" alt="body cream" class="product-img">
-                <h4>Missha All Around Safe Block Sebum Zero Sun</h4>
+            <div class="product" id="prod3">
+                <img src="img/prod4.jpg" alt="body cream" class="product-img">
+                <h4>Scinic Honey Banana Cleansing Foam</h4>
                 <span class="price">$4.00</span>
             </div>
             
-            <div class="product">
-                <img src="img/prod1.jpg" alt="body cream" class="product-img">
-                <h4>Missha All Around Safe Block Sebum Zero Sun</h4>
-                <span class="price">$4.00</span>
+            <div class="product" id="prod4">
+                <img src="img/prod5.jpg" alt="body cream" class="product-img">
+                <h4>Cosrx Advanced Snail 92 All in One Cream</h4>
+                <span class="price">$24.00</span>
             </div>
             
-            <div class="product">
-                <img src="img/prod1.jpg" alt="body cream" class="product-img">
-                <h4>Missha All Around Safe Block Sebum Zero Sun</h4>
-                <span class="price">$4.00</span>
+            <div class="product" id="prod5">
+                <img src="img/prod6.png" alt="body cream" class="product-img">
+                <h4>Innisfree Green Tea Balancing Cream</h4>
+                <span class="price">$18.00</span>
             </div>
             
+            <div class="product" id="prod6">
+                <img src="img/prod7.jpg" alt="body cream" class="product-img">
+                <h4>Skin79 Fresh Garden Mask - Snail</h4>
+                <span class="price">$2.00</span>
+            </div>
+
+            <div class="product" id="prod7">
+                <img src="img/prod8.jpg" alt="body cream" class="product-img">
+                <h4>Tonymoly Pure Eco Snail Moisture Gel</h4>
+                <span class="price">$8.00</span>
+            </div>
+
+            <div class="product" id="prod8">
+                <img src="img/prod9.jpg" alt="body cream" class="product-img">
+                <h4>Innisfree Canola Honey Mask</h4>
+                <span class="price">$14.00</span>
+            </div>
         </div>
-        
 
     </div>
+    <!-- end content -->
 
+    <!-- modal -->
+    <div id="modal">
+            <div class="active-product">
+                <div class="upper">
+                    <div class="product-image">
+                            <img src="img/prod1.jpg" alt="body cream">
+                    </div>
+                    
+                    <div class="product-details">
+                        <div class="reviews">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <br>
+                                <small>21 reviews</small>
+                        </div>
+                        <h2 class="product-title">Missha All Around Safe Block Sebum Zero Sun</h2>
+                        <div class="price-quantity">
+                            <span class="price">$4.00</span>
+                            <span>50 ml</span>
+                        </div>
+                        <span class="add-product">Add to cart</span>
+                        <p class="description"> A portable cooling eye stick that instantly
+                                                relieves puffy, tired eyes by hydrating the
+                                                delicate skin and minimizing fine lines around
+                                                the eye for a refreshed and revitalized look.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="bottom-link">
+                    <a href="#" class="details">More details</a>
+                </div>
+            </div>
+    </div>
+    <!-- end modal -->
+    
     <footer>
-
+        <div class="footer-logo">
+                <a href="/"><h2 style="color: #fff;">Amazing shop</h2></a>
+        </div>
+        <div class="contact footer-contact" >
+            <h4 class="subTitle"><i class="fas fa-map-marker-alt"></i> My city: 
+                <a href="https://goo.gl/maps/27cDydCFh38FUNeb6" target="_blank">
+                    <span style="color: #8077aa">Los Angeles</span>
+                </a>
+            </h4>  
+            <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
+        </div>
     </footer>
 
-<script>
-    
 
-</script>
-
+    <!-- scripts -->
+    <script src="https://kit.fontawesome.com/a653ef4095.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
