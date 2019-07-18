@@ -9,10 +9,17 @@ body {
     background: #eee;
 }
 
+.ad1 {
+    background: url(../img/ad1.jpg) no-repeat;
+}
+
 .arrow-left, .arrow-right {
-    border: 2px solid #ccc;
-    padding: .2rem .5rem .2rem .5rem;
+    border: 1px solid #ccc;
+    padding: .2rem .6rem .2rem .6rem;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: rgba(0,0,0,0.7);
 }
 
 .arrow-left {
@@ -37,10 +44,10 @@ body {
      position: absolute;
      margin-top: 4.5rem;
      background: #fff;
-     width: 20vw;
+     width: 20%;
      padding: 1rem 0 1rem 1rem;
      border-radius: 5px;
-     box-shadow: 0 0 6px rgba(0,0,0,0.3)
+     box-shadow: 0 3px 6px rgba(0,0,0,0.1)
 }
 
 .categories-item a {
@@ -86,7 +93,7 @@ body {
 
 .count {
     background: rgba(57, 58, 177, 1);
-    padding: .95rem;
+    padding: .93rem;
     color: rgba(255, 255, 255, 0.8);
     border-radius: 0 5px 5px 0;
 }
@@ -94,6 +101,11 @@ body {
 .content-header {
     display: flex;
     justify-content: space-between;
+}
+
+.fa-search {
+    color: #888;
+    vertical-align: middle;
 }
 
 .filters {
@@ -238,12 +250,12 @@ hr {
     text-align: center;
     width: 22%;
     height: 19.7rem;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .product-img {
@@ -264,9 +276,14 @@ hr {
     margin-left: 22%;
     background: #fff;
     padding: 0.5rem;
+    padding-left: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
     width: 48.1%;
+}
+
+.searchBar input:focus {
+    outline: none
 }
 
 .searchBar input {
@@ -274,10 +291,6 @@ hr {
     height: 2rem;
     margin-left: 1vw;
     width: 80%;
-}
-
-.searchBar img {
-    height: 1rem;
     vertical-align: middle;
-    margin-left: 0.5vw;
+    color: #888;
 }
