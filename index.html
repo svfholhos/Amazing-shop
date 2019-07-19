@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amazing Shop</title>
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="css/hamburgers-master/dist/hamburgers.css" rel="stylesheet">
     
 </head>
 
@@ -29,7 +29,7 @@
                     <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
                 </div>
         </div>
-        
+
         <nav class="navigation">
             <ul class="main-menu">
                 <li class="menu-item"><a href="">Shipping</a> </li>
@@ -39,16 +39,36 @@
             </ul>
         </nav>
 
+        <!-- custom hamburger -->
+        <div class="mobile-menu">
+            <button class="hamburger hamburger--elastic" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+                <span id="categ-name">Face</span>
+            </button>
+
+            <div class="mobile-search">
+                <i class="fas fa-search"></i>
+            </div>
+            
+        </div>
+
+        
+
         <div class="searchBar">
             <i class="fas fa-search"></i>
             <input type="text" placeholder="Search products by SKU or name">
         </div>
-    
-        <div class="myCart">
-            <i class="fas fa-cart-plus cart-icon"></i>
-            <div class="myCart-text">My Cart</div>
-            <div class="count"> 12 </div>
-        </div>
+        
+        <a href="#">
+            <div class="myCart">
+                <i class="fas fa-cart-plus cart-icon"></i>
+                <div class="myCart-text">My Cart</div>
+                <div class="count"> 12 </div>
+            </div>
+        </a>
+            
     </header>
     <!-- end header -->
 
@@ -231,7 +251,7 @@
     </div>
     <!-- end content -->
 
-    <!-- modal -->
+    <!-- MODAL -->
     <div id="modal">
             <div class="active-product">
                 <div class="upper">
@@ -264,11 +284,11 @@
                 </div>
                 
                 <div class="bottom-link">
-                    <a href="#" class="details">More details</a>
+                    <span><a href="#" class="details">More details</a></span>
                 </div>
             </div>
     </div>
-    <!-- end modal -->
+    <!-- END MODAL -->
     
     <footer>
         <div class="footer-logo">
