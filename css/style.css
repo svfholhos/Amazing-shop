@@ -142,15 +142,24 @@ a {
 }
 
 .contact {
-    display: inline-flex; 
-    padding-left: 8%;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 6%;
 }
 
 .contact .subTitle {
     margin:  0; 
     padding: 0; 
-    margin: 0.2rem 0 0 1rem;
     font-weight: 500;
+}
+
+.subTitle:nth-child(1) {
+    
+}
+
+.contact i {
+    margin-right: 0.5rem;
 }
 
 .count {
@@ -231,11 +240,12 @@ footer {
 }
 
 header {
-    display: flex;  
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(248, 203, 0, 1);
     height: 10rem;
     padding: 2% 8% 0 8%;
-    justify-content: space-between;
+    width: 100%;
 }
 
 hr {
@@ -263,33 +273,24 @@ hr {
     color: rgba(248, 203, 0, 1)
 }
 
-.navLeftSide {
-    display: inline-flex;
-    width: 60%;
-}
-
 .logo {
-    width: 33.3%;
-    padding-left: 2.1%;
+    width: 20%;
+    padding-left: 1rem;
 }
 
 .logo a {
     text-decoration: none;
-    
+    line-height: 1rem;
 }
 
-.navigation {
-    text-align: right;
-    width: 30%;
-}
-
-.navigation ul {
-    display: flex;
+.main-menu {
+    display: inline-flex;
     justify-content: space-between;
 }
 
 .menu-item {
     list-style-type: none;
+    margin-left: 1.5rem;
 }
 
 .menu-item a {
@@ -327,6 +328,11 @@ hr {
     color: #fff;
     font-size: 1vw;
     padding: 0 .5rem 0 .5rem;
+}
+
+.navigation {
+    width: 40%;
+    text-align: right;
 }
 
 .pagination {
@@ -461,12 +467,8 @@ hr {
     .active-product {
         width: 80%;
     }
-
-    .navigation {
-        display: none;
-    }
-
-    .navLeftSide {
+    
+    .navigation, .logo {
         display: none;
     }
 

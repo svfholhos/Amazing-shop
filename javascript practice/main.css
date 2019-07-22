@@ -136,7 +136,15 @@ body {
 #custom-error {
     width: 100%;
     text-align: center;
-    color: red;
+    color:#fc031c;
     padding-bottom: 1rem;
     display: none;
+}
+
+.add:hover, .remove:hover {
+    cursor: pointer;
+}
+
+.remove-item:hover {
+    cursor: pointer;
 }
