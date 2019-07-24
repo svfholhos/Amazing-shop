@@ -12,58 +12,61 @@
 
 <body id="root">
     <header>
-        <div class="logo">
-            <a href="/"><h2 style="color: #fff;">Amazing shop</h2></a>
-        </div>
+        <div class="header-upper">
+            <div class="logo">
+                <a href="/"><h2 style="color: #fff;">Amazing shop</h2></a>
+            </div>
+        
+            <div class="contact" >
+                <h4 class="subTitle"><i class="fas fa-map-marker-alt"></i> My city:
+                    <a href="https://goo.gl/maps/27cDydCFh38FUNeb6" target="_blank">
+                        <span style="color: #8077aa">Los Angeles</span>
+                    </a>
+                </h4>
+
+                <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
+            </div>
+
+
+            <!-- custom hamburger --> 
+            <div class="mobile-menu">
+                <button class="hamburger hamburger--elastic" type="button">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                    <span id="categ-name">Face</span>
+                </button>
     
-        <div class="contact" >
-            <h4 class="subTitle"><i class="fas fa-map-marker-alt"></i> My city:
-                <a href="https://goo.gl/maps/27cDydCFh38FUNeb6" target="_blank">
-                    <span style="color: #8077aa">Los Angeles</span>
-                </a>
-            </h4>
+                <div class="mobile-search">
+                    <img src="./icons/search_icon.png" alt="" id="search-icon">
+                </div>
+            </div>
 
-            <h4  class="subTitle"><i class="fas fa-phone"></i> 8 800505-04-83</h4>
+            <nav class="navigation">
+                <ul class="main-menu">
+                    <li class="menu-item"><a href="">Shipping</a> </li>
+                    <li class="menu-item"><a href="">Blog</a></li>
+                    <li class="menu-item"><a href="">Company</a></li>
+                    <li class="menu-item"><a href="">My account</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="navigation">
-            <ul class="main-menu">
-                <li class="menu-item"><a href="">Shipping</a> </li>
-                <li class="menu-item"><a href="">Blog</a></li>
-                <li class="menu-item"><a href="">Company</a></li>
-                <li class="menu-item"><a href="">My account</a></li>
-            </ul>
-        </nav>
-
-        <!-- custom hamburger --> 
-        <div class="mobile-menu">
-            <button class="hamburger hamburger--elastic" type="button">
-                <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                </span>
-                <span id="categ-name">Face</span>
-            </button>
-
-            <div class="mobile-search">
-                <img src="./icons/search_icon.png" alt="" id="search-icon">
+        
+        
+        <div class="header-bottom">
+            <div class="searchBar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search products by SKU or name">
             </div>
             
+            <a href="#">
+                <div class="myCart">
+                    <i class="fas fa-cart-plus cart-icon"></i>
+                    <div class="myCart-text">My Cart</div>
+                    <div class="count"> 12 </div>
+                </div>
+            </a>
         </div>
-
-        
-
-        <div class="searchBar">
-            <i class="fas fa-search"></i>
-            <input type="text" placeholder="Search products by SKU or name">
-        </div>
-        
-        <a href="#">
-            <div class="myCart">
-                <i class="fas fa-cart-plus cart-icon"></i>
-                <div class="myCart-text">My Cart</div>
-                <div class="count"> 12 </div>
-            </div>
-        </a>
             
     </header>
     <!-- end header -->
@@ -178,13 +181,16 @@
          
             <div class="pagination">
                 <h4>Showing {60} of {392}</h4>
-                <span class="arrow-left"><i class="fas fa-chevron-left"></i></span>
-                <span class="arrow-right"><i class="fas fa-chevron-right"></i></i></span>
+                <div class="arrows">
+                    <span class="arrow-left"><i class="fas fa-chevron-left"></i></span>
+                    <span class="arrow-right"><i class="fas fa-chevron-right"></i></i></span>
+                </div>
             </div>
         </div>
         <!-- end content header -->
 
         <!-- filters -->
+        <span id="showFilters"><h4>Filters</h4></span>
         <div class="filters">
             <span class="brand-filter">Brand: <span class="filter-blue">All brands</span></span>
             <span class="skin-filter">Skin type: <span class="filter-blue">For oily skin</span></span>
